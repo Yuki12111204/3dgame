@@ -34,7 +34,7 @@ void player::initialize(int name, float extendf, VECTOR pos, bool anim_load) {
 	}
 
 	/* ----- 3Dƒ‚ƒfƒ‹‚Ì‘å‚«‚³İ’è ----- */
-	extendf = 20;
+	extendf = 15;
 	model_extend = VGet(extendf, extendf, extendf);		// 3Dƒ‚ƒfƒ‹‚ÌkÚ—¦‚ÌŠi”[
 	MV1SetScale(model_handle, model_extend);			// 3Dƒ‚ƒfƒ‹‚ÌŠg‘åk¬
 	
